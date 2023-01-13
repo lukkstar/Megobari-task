@@ -1,0 +1,1463 @@
+@font-face {
+  font-family: MontLingt;
+  src: url(./fonts/Mont-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: MontBold;
+  src: url(./fonts/Mont-Bold.otf) format("opentype");
+}
+body {
+  margin: 0;
+  font-family: MontLingt;
+}
+
+.sale-heading {
+  background-color: #11346f;
+  display: flex;
+  justify-content: center;
+}
+.sale-heading p {
+  font-family: MontBold;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px;
+  margin: 0;
+  line-height: 30px;
+}
+.sale-heading p:first-child {
+  margin-right: 10px;
+}
+
+nav {
+  background: rgba(245, 253, 255, 0.8);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 13px;
+  margin-bottom: 65px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+}
+nav ul li {
+  padding-right: 60px;
+  font-size: 16px;
+  line-height: 21px;
+}
+nav ul .color {
+  font-family: MontBold;
+}
+nav ul a {
+  text-decoration: none;
+  color: initial;
+  color: #11346f;
+}
+nav button {
+  font-family: MontBold;
+  font-size: 14px;
+  background-color: #197aff;
+  border-radius: 60px;
+  padding: 11px 39px;
+  height: 42px;
+  text-transform: uppercase;
+  border: none;
+}
+nav button a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.about-magic {
+  padding-left: 80px;
+  padding-right: 80px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.about-magic .hero-right {
+  right: 15px;
+  bottom: 250px;
+}
+.about-magic .title {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  color: #213786;
+  font-size: 42px;
+  font-family: MontBold;
+  margin-bottom: 25px;
+  max-width: 1000px;
+}
+.about-magic .title .magic {
+  position: relative;
+  height: 60px;
+}
+.about-magic .title span {
+  color: #197aff;
+  padding-left: 10px;
+}
+.about-magic .hero-right,
+.about-magic .title-arrow,
+.about-magic .magic-down {
+  position: absolute;
+}
+.about-magic .title-arrow {
+  right: -73px;
+}
+.about-magic .magic-down {
+  right: 0;
+  bottom: 0;
+}
+.about-magic p {
+  color: #262626;
+  font-size: 18px;
+  margin-block: 25px;
+  width: 730px;
+  line-height: 28px;
+}
+.about-magic .hero {
+  display: flex;
+  width: 690px;
+  border: 1px solid rgba(174, 204, 255, 0.5019607843);
+  background: rgba(174, 204, 255, 0.1);
+  border-radius: 10px;
+  padding: 17px 15px 3px 15px;
+  margin-bottom: 52px;
+}
+.about-magic .hero .hero-box {
+  border-right: 1px solid #cee2ff;
+}
+.about-magic .hero .hero-box:last-child {
+  border: none;
+}
+.about-magic .hero img {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.about-magic .hero .hero-title {
+  color: #213786;
+  font-family: MontBold;
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.about-magic .hero ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 27px;
+  font-size: 13px;
+  padding-right: 12px;
+  margin-bottom: 11px;
+}
+.about-magic .get-pass {
+  background-color: #197aff;
+  border: none;
+  border-radius: 60px;
+  font-size: 22px;
+  padding: 19px 58px;
+  margin-bottom: 30px;
+}
+.about-magic .get-pass a {
+  color: #fff;
+  text-decoration: none;
+}
+.about-magic .hero-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.about-magic .hero-bottom button {
+  background-color: rgba(77, 145, 207, 0.15);
+  height: 34px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 50px;
+  font-family: MontLingt;
+  margin-left: 68px;
+  margin-top: 20px;
+}
+.about-magic .hero-bottom button a {
+  text-decoration: none;
+  color: #000000;
+}
+.about-magic .hero-bottom button a span {
+  color: #197aff;
+  font-family: MontBold;
+}
+.about-magic .hero-bottom .feedback {
+  border: 1px solid rgba(174, 204, 255, 0.5);
+  border-radius: 50px;
+  display: flex;
+  max-width: 400px;
+}
+.about-magic .hero-bottom .feedback .feedback-text {
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+.about-magic .hero-bottom .feedback .avatar {
+  margin: 12px;
+}
+.about-magic .hero-bottom .feedback p {
+  margin: 0;
+  margin-top: 17px;
+  margin-bottom: 12px;
+}
+
+.offers .offers-heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: #11346f;
+  padding-left: 94px;
+  padding-right: 60px;
+  padding-block: 23px;
+}
+.offers .offers-heading div {
+  display: flex;
+}
+.offers .offers-heading div p {
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-top: 13px;
+  font-family: MontLingt;
+}
+.offers .offers-card-container {
+  background-color: #94beff;
+}
+.offers .offers-card-container h1 {
+  text-align: center;
+  color: #11346f;
+  margin-top: 0;
+  padding-top: 40px;
+}
+.offers .offers-card-container .white-card-title {
+  font-family: MontBold;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  padding-bottom: 30px;
+}
+.offers .card-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+}
+.offers .card-container .card1:hover {
+  opacity: 0.7;
+}
+.offers .card-container .card1 {
+  width: 368px;
+  background-color: #f0f6ff;
+  border: 1.5px solid #197aff;
+  border-radius: 18px;
+  position: relative;
+}
+.offers .card-container .card1 .main-img {
+  position: absolute;
+  top: -20px;
+}
+.offers .card-container .card1 .title {
+  margin-top: 150px;
+  text-align: center;
+  color: #11346f;
+  font-size: 28px;
+  line-height: 37px;
+  margin-bottom: 17px;
+}
+.offers .card-container .card1 .price {
+  font-family: MontBold;
+  color: #11346f;
+  text-align: center;
+  margin-bottom: 1px;
+  font-size: 30px;
+}
+.offers .card-container .card1 .shipping {
+  font-family: MontBold;
+  color: #11346f;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 13px;
+  margin-top: 0;
+}
+.offers .card-container .card1 .money-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: MontBold;
+  color: #11346f;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 40px;
+}
+.offers .card-container .card1 .money-back img {
+  margin-right: 10px;
+}
+.offers .card-container .card1 .afterpay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.offers .card-container .card1 .afterpay p {
+  font-family: MontLingt;
+  color: #11346f;
+  font-size: 12px;
+  line-height: 15px;
+  margin-right: 10px;
+}
+.offers .card-container .card1 .afterpay p span {
+  font-family: MontBold;
+  padding-right: 3px;
+}
+.offers .card-container .card1 .afterpay button {
+  background-color: #bcf5e3;
+  font-family: MontBold;
+  padding: 4px 13px;
+  border: none;
+  border-radius: 40px;
+}
+.offers .card-container .card1 .afterpay button a {
+  text-decoration: none;
+  color: #000;
+}
+.offers .card-container .card1 .get-magic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 21px;
+}
+.offers .card-container .card1 .get-magic button {
+  background-color: #197aff;
+  border-radius: 60px;
+  font-family: MontBold;
+  border: none;
+  font-size: 18px;
+  padding: 15px 83px;
+}
+.offers .card-container .card1 .get-magic button a {
+  color: #fff;
+  text-decoration: none;
+}
+.offers .card-container .card1 .pay {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 25px;
+}
+
+.customers {
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+.customers h1 {
+  text-align: center;
+  font-family: MontLingt;
+  margin-block: 52px;
+  color: 213786;
+  font-size: 37px;
+  line-height: 48px;
+}
+.customers h1 span {
+  color: #197aff;
+  font-family: MontBold;
+}
+.customers .total-review-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 18px;
+}
+.customers .total-review-container .total-review {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 19px;
+  color: #11346f;
+  font-family: MontBold;
+}
+.customers .total-review-container .total-review img {
+  margin-right: 7px;
+}
+.customers .total-review-container button {
+  border: 1px solid #213786;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 7px 20px;
+  background-color: #f6f8fc;
+}
+.customers .total-review-container button a {
+  text-decoration: none;
+  color: #213786;
+}
+.customers .review-cards {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.customers .review-cards .card1 {
+  width: 285px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 7px;
+}
+.customers .review-cards .card1 .user-info {
+  padding: 0px 18px 18px 17px;
+}
+.customers .review-cards .card1 .user-info .verified {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+.customers .review-cards .card1 .user-info .verified div {
+  display: flex;
+  color: #89c25f;
+  font-size: 11px;
+  line-height: 15px;
+  align-items: center;
+  font-family: MontBold;
+}
+.customers .review-cards .card1 .user-info .verified div img {
+  margin-right: 7px;
+}
+.customers .review-cards .card1 .user-info .user-name {
+  color: #11346f;
+  font-family: MontBold;
+  font-size: 14px;
+}
+.customers .review-cards .card1 p {
+  font-size: 13px;
+  line-height: 26px;
+  color: #262626;
+  margin-top: 10px;
+}
+
+.faq {
+  background-color: #11346f;
+}
+.faq h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 37px;
+  line-height: 50px;
+  padding-top: 34px;
+  margin-bottom: 64px;
+  margin-top: 0;
+}
+.faq h1 span {
+  font-family: MontBold;
+}
+.faq .all-faq {
+  display: flex;
+  color: #fff;
+  font-family: MontBold;
+}
+.faq .faq-container {
+  padding-right: 120px;
+  padding-left: 100px;
+  display: flex;
+  padding-bottom: 70px;
+}
+.faq .faq-container img {
+  margin-right: 85px;
+  max-height: 398px;
+  max-width: 100%;
+}
+.faq .faq-container .accordion-container .accordion {
+  width: 660px;
+  margin-bottom: 16px;
+}
+.faq .faq-container .accordion-container .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 20px 30px;
+  background-color: #194081;
+  border: 1px solid #31548e;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.faq .faq-container .accordion-container .accordion-header h2 {
+  margin: 0;
+  color: #fff;
+}
+.faq .faq-container .accordion-container .accordion-header button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: #aeccff;
+}
+.faq .faq-container .accordion-container .accordion-body {
+  background-color: #11346f;
+  border: 1px solid #31548e;
+  padding: 20px 40px 20px 30px;
+  border-radius: 9px;
+  color: #aeccff;
+  border-top: 0;
+  display: none;
+}
+.faq .faq-container .accordion-container .accordion-body p {
+  margin: 0;
+}
+.faq .faq-container .accordion-container .accordion.active .accordion-body {
+  display: block;
+}
+
+@media screen and (max-width: 1330px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  nav ul {
+    padding-left: 10px;
+  }
+  nav ul li {
+    padding-right: 80px;
+    font-size: 12px;
+  }
+  nav button {
+    padding: 7px 30px;
+  }
+  .about-magic {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .about-magic .hero-right {
+    max-width: 300px;
+    right: 36px;
+    bottom: auto;
+  }
+  .about-magic .title-arrow {
+    right: 0;
+    left: 110px;
+  }
+  .about-magic .feedback-text {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .about-magic .hero-bottom {
+    align-items: center;
+    margin-top: 20px;
+  }
+  .about-magic .hero-bottom button {
+    width: 228px;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+  .about-magic .get-pass {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+  }
+  .about-magic .title {
+    display: inline-block;
+    font-size: 35px;
+    display: flex;
+  }
+  .about-magic .title-arrow {
+    left: 150px;
+  }
+  .about-magic .magic-down {
+    right: 0;
+    left: 0;
+    bottom: 10px;
+  }
+  .offers .offers-heading {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .offers .offers-card-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container {
+    padding: 0;
+    align-items: center;
+    gap: 40px;
+  }
+  .offers .offers-card-container .card-container .card1 .afterpay {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container .get-magic button {
+    padding: 15px 30px;
+  }
+  .offers .offers-card-container .card-container:last-child {
+    padding-bottom: 50px;
+  }
+  .customers h1 {
+    margin-top: 28px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customers .total-review-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .customers .total-review-container .total-review button {
+    width: 133px;
+    padding: 0;
+  }
+  .customers .review-cards {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .customers .review-cards .card1 {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 13px;
+  }
+  .customers .review-cards .card1 .user-name {
+    margin: 0;
+  }
+  .customers .review-cards ::-webkit-scrollbar {
+    display: none;
+  }
+  .faq h1 {
+    margin-bottom: 39px;
+  }
+  .faq .faq-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+  }
+  .faq .faq-container img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+    height: 270px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%;
+    margin-right: 70px;
+  }
+  .faq .faq-container .accordion-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .faq .faq-container .all-faq {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: MontBold;
+  }
+}
+@media screen and (max-width: 1200px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  nav ul {
+    padding-left: 10px;
+  }
+  nav ul li {
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  nav button {
+    padding: 7px 30px;
+  }
+  .about-magic {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .about-magic .hero-right {
+    max-width: 300px;
+    right: 36px;
+    bottom: auto;
+  }
+  .about-magic .title-arrow {
+    right: 0;
+    left: 110px;
+  }
+  .about-magic .feedback-text {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .about-magic .hero-bottom {
+    align-items: center;
+    margin-top: 20px;
+  }
+  .about-magic .hero-bottom button {
+    width: 228px;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+  .about-magic .get-pass {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+  }
+  .about-magic .hero {
+    width: auto;
+    gap: 40px;
+    max-width: 630px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .about-magic .hero .hero-box {
+    border: none;
+  }
+  .about-magic .hero .hero-box ul {
+    display: none;
+  }
+  .about-magic p {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+  }
+  .about-magic .title {
+    display: inline-block;
+    font-size: 26px;
+  }
+  .about-magic .magic-down {
+    right: 0;
+    left: 0;
+    bottom: 10px;
+  }
+  .offers .offers-heading {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .offers .offers-heading div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offers .offers-heading div img {
+    max-width: 36px;
+    height: 36px;
+  }
+  .offers .offers-heading div p {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .offers .offers-card-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container {
+    padding: 0;
+    align-items: center;
+    gap: 40px;
+  }
+  .offers .offers-card-container .card-container .card1 .afterpay {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container .get-magic button {
+    padding: 15px 30px;
+  }
+  .offers .offers-card-container .card-container:last-child {
+    padding-bottom: 50px;
+  }
+  .customers h1 {
+    margin-top: 28px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customers .total-review-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .customers .total-review-container .total-review button {
+    width: 133px;
+    padding: 0;
+  }
+  .customers .review-cards {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .customers .review-cards .card1 {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 13px;
+  }
+  .customers .review-cards .card1 .user-name {
+    margin: 0;
+  }
+  .customers .review-cards ::-webkit-scrollbar {
+    display: none;
+  }
+  .faq h1 {
+    margin-bottom: 39px;
+  }
+  .faq .faq-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .faq .faq-container img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+    height: 270px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%;
+    margin-right: 70px;
+  }
+  .faq .faq-container .accordion-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .faq .faq-container .all-faq {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: MontBold;
+  }
+}
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  nav ul {
+    padding-left: 10px;
+  }
+  nav ul li {
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  nav button {
+    padding: 7px 30px;
+  }
+  .about-magic {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .about-magic .hero-right {
+    max-width: 300px;
+    right: -10px;
+    bottom: auto;
+  }
+  .about-magic .title-arrow {
+    right: 0;
+    left: 110px;
+  }
+  .about-magic .feedback-text {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .about-magic .hero-bottom {
+    align-items: center;
+    margin-top: 20px;
+  }
+  .about-magic .hero-bottom button {
+    width: 228px;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+  .about-magic .get-pass {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+  }
+  .about-magic .hero {
+    width: auto;
+    gap: 40px;
+    max-width: 630px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .about-magic .hero .hero-box {
+    border: none;
+  }
+  .about-magic .hero .hero-box ul {
+    display: none;
+  }
+  .about-magic p {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+  }
+  .about-magic .title {
+    display: inline-block;
+    font-size: 26px;
+  }
+  .about-magic .magic-down {
+    right: 0;
+    left: 0;
+    bottom: 10px;
+  }
+  .offers .offers-heading {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .offers .offers-heading div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offers .offers-heading div img {
+    max-width: 36px;
+    height: 36px;
+  }
+  .offers .offers-heading div p {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .offers .offers-card-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container {
+    padding: 0;
+    align-items: center;
+    gap: 40px;
+  }
+  .offers .offers-card-container .card-container .card1 {
+    width: 222px;
+  }
+  .offers .offers-card-container .card-container .card1 .afterpay {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container .card1 .main-img {
+    right: -25px;
+  }
+  .offers .offers-card-container .card-container .card1 .title {
+    margin-top: 80px;
+    font-size: 18px;
+  }
+  .offers .offers-card-container .card-container .card1 .price {
+    margin-top: 17px;
+  }
+  .offers .offers-card-container .card-container .card1 .shipping {
+    margin-bottom: 10px;
+  }
+  .offers .offers-card-container .card-container .card1 .afterpay {
+    margin-bottom: 10px;
+  }
+  .offers .offers-card-container .card-container .card1 .afterpay p {
+    text-align: center;
+  }
+  .offers .offers-card-container .card-container .card1 .pay {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .offers .offers-card-container .card-container .get-magic button {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .offers .offers-card-container .card-container:last-child {
+    padding-bottom: 50px;
+  }
+  .customers h1 {
+    margin-top: 28px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customers .total-review-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .customers .total-review-container .total-review button {
+    width: 133px;
+    padding: 0;
+  }
+  .customers .review-cards {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .customers .review-cards .card1 {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 13px;
+  }
+  .customers .review-cards .card1 .user-name {
+    margin: 0;
+  }
+  .customers .review-cards ::-webkit-scrollbar {
+    display: none;
+  }
+  .faq h1 {
+    margin-bottom: 39px;
+  }
+  .faq .faq-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .faq .faq-container img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+    height: 270px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%;
+    margin-right: 70px;
+  }
+  .faq .faq-container .accordion-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .faq .faq-container .accordion-container .accordion {
+    max-width: 500px;
+  }
+  .faq .faq-container .all-faq {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: MontBold;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  nav ul {
+    padding-left: 10px;
+  }
+  nav ul li {
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  nav button {
+    display: none;
+  }
+  .about-magic {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-magic .hero-right {
+    max-width: 174px;
+    right: 36px;
+    bottom: auto;
+    top: 50px;
+  }
+  .about-magic .title-arrow {
+    right: 0;
+    left: 110px;
+  }
+  .about-magic .feedback-text {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .about-magic .hero-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-magic .hero-bottom button {
+    width: 228px;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+  .about-magic .get-pass {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+  }
+  .about-magic .hero {
+    width: auto;
+    gap: 40px;
+    max-width: 630px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .about-magic .hero .hero-box {
+    border: none;
+  }
+  .about-magic .hero .hero-box ul {
+    display: none;
+  }
+  .about-magic p {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+  }
+  .about-magic .title {
+    display: inline-block;
+    font-size: 26px;
+  }
+  .about-magic .title .title-main {
+    width: 260px;
+  }
+  .about-magic .magic-down {
+    right: 0;
+    left: 0;
+    bottom: 10px;
+  }
+  .offers .offers-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .offers .offers-heading div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offers .offers-heading div img {
+    max-width: 36px;
+    height: 36px;
+  }
+  .offers .offers-heading div p {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .offers .offers-card-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    gap: 40px;
+  }
+  .offers .offers-card-container .card-container .card1 img {
+    right: 0;
+  }
+  .offers .offers-card-container .card-container .card1 .title {
+    margin-top: 80px;
+  }
+  .offers .offers-card-container .card-container:last-child {
+    padding-bottom: 50px;
+  }
+  .customers h1 {
+    margin-top: 28px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customers .total-review-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customers .total-review-container .total-review {
+    flex-direction: column-reverse;
+  }
+  .customers .total-review-container .total-review button {
+    width: 133px;
+    padding: 0;
+  }
+  .customers .review-cards {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .customers .review-cards .card1 {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 13px;
+  }
+  .customers .review-cards .card1 .user-name {
+    margin: 0;
+  }
+  .customers .review-cards ::-webkit-scrollbar {
+    display: none;
+  }
+  .faq h1 {
+    margin-bottom: 39px;
+  }
+  .faq .faq-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+  }
+  .faq .faq-container img {
+    max-width: 100% !important;
+    margin-right: 0;
+    margin-bottom: 24px;
+    height: 270px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%;
+  }
+  .faq .faq-container .accordion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .faq .faq-container .accordion-container .accordion {
+    width: 100%;
+  }
+  .faq .faq-container .all-faq {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: MontBold;
+  }
+  .faq .faq-image {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+    align-items: center;
+  }
+  nav ul,
+nav button {
+    display: none;
+  }
+  .about-magic {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-magic .feedback-text {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .about-magic .hero-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-magic .hero-bottom button {
+    width: 228px;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .about-magic .get-pass {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+  }
+  .about-magic .hero {
+    width: auto;
+    border: none;
+  }
+  .about-magic .hero .hero-box {
+    border: none;
+  }
+  .about-magic .hero .hero-box ul {
+    display: none;
+  }
+  .about-magic p {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+  }
+  .about-magic .title {
+    font-size: 26px;
+    max-width: 213px;
+  }
+  .about-magic .hero-right {
+    max-width: 174px;
+    right: 5px;
+    bottom: auto;
+  }
+  .about-magic .title-arrow {
+    right: 35px;
+  }
+  .about-magic .magic-down {
+    right: 35px;
+    bottom: 10px;
+  }
+  .offers .offers-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .offers .offers-heading div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offers .offers-heading div img {
+    max-width: 36px;
+    height: 36px;
+  }
+  .offers .offers-heading div p {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .offers .offers-card-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .offers .offers-card-container .card-container {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    gap: 40px;
+  }
+  .offers .offers-card-container .card-container .card1 .money-back {
+    margin-bottom: 10px;
+  }
+  .offers .offers-card-container .card-container .card1 img {
+    right: -35px;
+  }
+  .offers .offers-card-container .card-container .card1 .title {
+    margin-top: 80px;
+  }
+  .offers .offers-card-container .card-container:last-child {
+    padding-bottom: 50px;
+  }
+  .customers h1 {
+    margin-top: 28px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customers .total-review-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customers .total-review-container .total-review {
+    flex-direction: column-reverse;
+  }
+  .customers .total-review-container .total-review button {
+    width: 133px;
+    padding: 0;
+  }
+  .customers .review-cards {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .customers .review-cards .card1 {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 13px;
+  }
+  .customers .review-cards .card1 .user-name {
+    margin: 0;
+  }
+  .customers .review-cards ::-webkit-scrollbar {
+    display: none;
+  }
+  .faq h1 {
+    margin-bottom: 39px;
+  }
+  .faq .faq-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+  }
+  .faq .faq-container img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+    height: 198px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%;
+  }
+  .faq .faq-container .accordion-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .faq .faq-container .accordion-container .accordion {
+    width: 100%;
+  }
+  .faq .faq-container .all-faq {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: MontBold;
+  }
+}/*# sourceMappingURL=styles.css.map */
